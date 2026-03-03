@@ -12,7 +12,7 @@
         <a href="table.html" title="View Student Table">Table</a>
     </nav>
 
-    <h1> This is my first HTML page</h1>
+    <h1> Welcome to My Chocolate Cake Page</h1>
      <h3>Ingredients:</h3>
     <ul>
       <li>Flour</li>
@@ -50,6 +50,35 @@
 
 
     </h2>
+
+    <h3>Order a chocolate cake</h3>
+    <form action="order.html" method="post">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required><br><br>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required><br><br>
+
+      <label >Select Cake Size</label>
+      <input type="radio" id="small" name="size" value="small">
+      <label for="small">Small Size</label>
+      <input type="radio" id="medium" name="size" value="medium">
+      <label for="medium">Medium Size</label>
+      <input type="radio" id="large" name="size" value="large">
+      <label for="large">Large Size</label><br><br>
+
+      <label>Choose your Toopings:</label>  <br>
+       <input type="checkbox" id="sprinkles" name="topping" value="sprinkles">
+        <label for="sprinkles">Sprinkles</label><br>
+        <input type="checkbox" id="strawberries" name="topping" value="strawberries">
+        <label for="strawberries">Strawberries</label><br>
+        <input type="checkbox" id="nuts" name="topping" value="nuts">
+        <label for="nuts">Crushed Nuts</label><br>
+        <input type="checkbox" id="cream" name="topping" value="cream">
+        <label for="cream">Whipped Cream</label><br><br>
+
+      <input type="submit" value="Order Cake">
+      
+    </form>
     
   
 </body>
